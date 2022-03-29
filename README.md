@@ -16,5 +16,5 @@ You can install multiple versions of PHP with **brew** and switch between them w
 
 ```sh
 brew unlink php@8.1
-brew link php@7.1
+brew link php@7.4
 ````
