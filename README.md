@@ -18,3 +18,20 @@ You can install multiple versions of PHP with **brew** and switch between them w
 brew unlink php@8.1
 brew link php@7.4
 ````
+
+## Screencast with FFMPEG
+
+List available devices
+
+```sh
+ffmpeg -f avfoundation -list_devices true -i ""
+```
+
+Various screencan modes
+
+```sh
+ffmpeg -f avfoundation -i 1:0 -r 30 test.mp4
+ffmpeg -capture_cursor 1 -capture_mouse_clicks 1 -f avfoundation -i 1:0 -r 30 test.mp4
+ffmpeg -capture_cursor 1 -capture_mouse_clicks 1 -f avfoundation -i 1:0 -r 30 -s 1280x720 test.mp4
+
+```
