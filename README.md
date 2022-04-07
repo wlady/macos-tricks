@@ -33,5 +33,6 @@ Various screencan modes
 ffmpeg -f avfoundation -i 1:0 -r 30 test.mp4
 ffmpeg -capture_cursor 1 -capture_mouse_clicks 1 -f avfoundation -i 1:0 -r 30 test.mp4
 ffmpeg -capture_cursor 1 -capture_mouse_clicks 1 -f avfoundation -i 1:0 -r 30 -s 1280x720 test.mp4
-
 ```
+
+Or just use built in QuickTime player feature to record screen and voice.
