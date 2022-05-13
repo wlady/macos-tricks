@@ -27,7 +27,7 @@ List available devices
 ffmpeg -f avfoundation -list_devices true -i ""
 ```
 
-Various screencan modes
+Various screencast modes
 
 ```sh
 ffmpeg -f avfoundation -i 1:0 -r 30 test.mp4
